@@ -1,1 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F0F285;
+}
+
+.main-body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.main-body > .div-about-us {
+    width: 100%;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-body > .div-about-us > .line-one {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Carrossel de Imagens*/
+.carousel-container {
+    position: relative;
+    width: 50%;
+    overflow: hidden; /* Adiciona overflow:hidden para esconder imagens adicionais */
+    display: flex;
+    flex-direction: column;
+}
+  
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.carousel-container > .carousel > img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    flex: 0 0 100%; /* Garante que cada imagem ocupa 100% da largura do contêiner */
+}
+
+.prev-button, .next-button {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff00;
+    color: #FFF;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+  
+.prev-button {
+    left: 10px;
+}
+  
+.next-button {
+    right: 10px;
+}
+
+.main-body > .div-about-us > .line-one > .text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-body > .div-about-us > .line-one > .text > h1 {
+    font-size: 50px;
+    width: 100%;
+}
+
+.main-body > .div-about-us > .line-one > .text > p {
+    font-size: 18px;
+}
+
+.btn-delivery {
+    font-family: "Poppins", sans-serif;
+    background-color: #29418F;
+    color: #FFF;
+    font-size: 20px;
+    margin: 40px 0 0 0;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+aside{
+    background-color: #29418F;
+    color: #FFF;
+    right: 0;
+    top: 50%;
+    min-width: 450px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: fixed;
+    transform: translateY(-50%) translateX(100%);
+    transition: 250ms all ease-in;
+}
+
+aside .close img{
+    position: absolute;
+    width: 50px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.active{
+    transform: translateY(-50%) translateX(0%);
+}

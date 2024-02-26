@@ -12,21 +12,39 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="../imgs/logosemfundo.png" alt="logosemfundo">
-        <nav>
-            <ul>
-            </ul>
-        </nav>
+        <div class="logo-header">
+            <img src="../imgs/logosemfundo.png" alt="logosemfundo">
+            <h1>Etec Burguer</h1>
+        </div>
+
+        <a href="javascript:menuToggle()" id="menu">
+            <img src="../imgs/menu.svg" alt="menu button">
+        </a>
     </header>
 
+    <aside>
+        <h1>Opções</h1>
+        <nav class="menu-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="avaliations.html">Avaliações</a></li>
+            </ul>
+        </nav>
+
+        <a href="javascript:menuToggle()" class="close"><img src="../imgs/close.svg" alt="Close button"></a>
+    </aside>
     <footer>
-        
+
     </footer>
 </body>
+
+<script src="../assets/navigation.js"></script>
 
 </html>

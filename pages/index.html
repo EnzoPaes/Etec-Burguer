@@ -12,21 +12,72 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <!-- Menu de navegação -->
     <header>
-        <img src="../imgs/logosemfundo.png" alt="logosemfundo">
-        <nav>
-            <ul>
-            </ul>
-        </nav>
+        <div class="logo-header">
+            <img src="../imgs/logosemfundo.png" alt="logosemfundo">
+            <h1>Etec Burguer</h1>
+        </div>
+
+        <a href="javascript:menuToggle()" id="menu">
+            <img src="../imgs/menu.svg" alt="menu button">
+        </a>
     </header>
 
+    <!-- Corpo -->
+    <main class="main-body">
+        <div class="div-about-us">
+            <div class="line-one">
+
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <img src="../imgs/hamburguer-index.jpeg" alt="Imagem 1">
+                        <img src="../imgs/hamburguer-index2.jpg" alt="Imagem 2">
+                        <img src="../imgs/hamburguer-index3.jpg" alt="Imagem 3">
+                    </div>
+
+                    <button class="prev-button" onclick="prevSlide()"><</button>
+                            <button class="next-button" onclick="nextSlide()">></button>
+                </div>
+
+                <div class="text">
+                    <h1>O Melhor<br>de Toda Região!</h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur quos temporibus itaque quaerat
+                        laudantium ratione consequatur dolor voluptatibus veritatis dolorum, quis distinctio mollitia
+                        perferendis aut ipsam in nobis? Nulla, natus.
+                    </p>
+                    <button class="btn-delivery onclick()">Faça seu pedido!</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Menu lateral -->
+    <aside>
+        <h1>Opções</h1>
+        <nav class="menu-navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="avaliations.html">Avaliações</a></li>
+            </ul>
+        </nav>
+
+        <a href="javascript:menuToggle()" class="close"><img src="../imgs/close.svg" alt="Close button"></a>
+    </aside>
     <footer>
-        
+
     </footer>
 </body>
+
+<script src="../assets/navigation.js"></script>
+<script src="../assets/resolution.js"></script>
 
 </html>

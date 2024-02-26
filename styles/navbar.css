@@ -1,1 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+header {
+    background-color: #DB1D18;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .logo-header {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header > .logo-header > h1 {
+    color: #F0F285;
+    font-size: 35px;
+}
+
+header > .logo-header > img {
+    width: 8%;
+    height: auto;
+    margin: 0 2% 0 2%;
+}
+
+header > #menu {
+    margin: 0 2% 0 0;
+}
+
+.fixed {
+    width: 100%;
+    position: fixed;
+    padding: 5px 10px;
+    top: 0;
+    left: 0;
+    background-color: #DB1D18;
+}
+
+.fixed > .app-title {
+    font-size: 1.25em;
+}
+
+.fixed > #menu > img {
+    width: 35px;
+}
+
+header > .app-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+header > #menu > img {
+    width: 50px;
+}
+
+aside > .menu-navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside > .menu-navbar > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside > .menu-navbar > ul > li {
+    background-color: #536cbd;
+    list-style-type: none;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    box-shadow: 0 10px 10px #00000018;
+    border-radius: 8px;
+}
+
+aside > .menu-navbar > ul > li > a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+aside > .menu-navbar > ul > li:hover a {
+    color: #fbff00;
+    text-align: center;
+    transition: 0.1s ease-out;
+}
