@@ -62,6 +62,37 @@ header > #menu > img {
     width: 50px;
 }
 
+aside {
+    background-color: #29418F;
+    color: #FFF;
+    right: 0;
+    top: 50%;
+    min-width: 450px; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: fixed;
+    transform: translateY(-50%) translateX(100%);
+    transition: 250ms all ease-in;
+}
+
+aside > .close > img {
+    position: absolute;
+    width: 50px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.active {
+    transform: translateY(-50%) translateX(0%);
+}
+
 aside > .menu-navbar {
     width: 100%;
     display: flex;
@@ -92,6 +123,10 @@ aside > .menu-navbar > ul > li {
 
 aside > .menu-navbar > ul > li > a {
     color: #FFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-weight: 550;
     font-size: 20px;

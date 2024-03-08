@@ -12,7 +12,7 @@ body {
 }
 
 .main-body {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -32,7 +32,7 @@ body {
     width: 80%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -108,35 +108,9 @@ body {
     cursor: pointer;
 }
 
-aside {
-    background-color: #29418F;
-    color: #FFF;
-    right: 0;
-    top: 50%;
-    min-width: 450px; 
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    box-sizing: border-box;
-    position: fixed;
-    transform: translateY(-50%) translateX(100%);
-    transition: 250ms all ease-in;
-}
-
-aside > .close > img {
-    position: absolute;
-    width: 50px;
-    top: 0;
-    right: 0;
-    margin: 10px;
-    border-radius: 100%;
-}
-
-.active {
-    transform: translateY(-50%) translateX(0%);
+.btn-delivery:hover {
+    background-color: #446df7;
+    transition: 0.1s ease-in-out;
 }
 
 /* Social Media */
@@ -144,24 +118,70 @@ aside > .close > img {
 .social-media {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+}
+
+.social-media > .informations {
+    width: 80%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.social-media > .left-media {
+.social-media > h1 {
+    font-size: 50px;
+}
+
+.social-media > .informations > .left-media {
     width: 50%;
     display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: left;
 }
 
-.left-media > figure {
-    width: 10%;
+.social-media > .informations > .right-media {
+    width: 50%;
 }
 
-.left-media > figure > img {
-    width: 100%;
+.left-media > h1 {
+    font-size: 35px;
+}
+
+.left-media > a {
+    text-decoration: none;
+}
+
+.left-media > a > figure {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.left-media > a > figure > img {
+    width: 50%;
+}
+
+.left-media > a > figure > h3 {
+    color: #000;
+    padding: 20px;
+}
+
+.left-media > a > figure > h3:hover {
+    color: #446df7;
 }
 
 .social-media > .right-media {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
 }
 
+.social-media > .right-media > h1 {
+    font-size: 35px;
+}
