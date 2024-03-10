@@ -1,1 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+.footer-about {
+    background-color: #252525;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-about > div {
+    width: 20%;
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: left;
+}
+
+.footer-about > div > ul {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+}
+
+.footer-about > div > ul > li {
+    list-style-type: none;
+}
+
+.footer-about > div > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-about > div > ul > li > a:hover {
+    color: #ff0000;
+}
+
+.footer-about > div > h2 {
+    padding: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
