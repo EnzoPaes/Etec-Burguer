@@ -437,7 +437,7 @@ textarea {
 .lanches > .products {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
-    gap: 5px;
+    gap: 24px;
 }
 
 .product{
@@ -447,7 +447,7 @@ textarea {
     align-items: center;
     justify-content: initial;
     background-color: #f3f5a6;
-    box-shadow: #a5a5a5 1.5px 1.5px 1.5px;
+    box-shadow: #afb422 3px 3px 3px;
 }
 
 .lanche-img{
@@ -478,7 +478,7 @@ textarea {
 .porcoes > .products {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
-    gap: 5px;
+    gap: 24px;
 }
 
 .porcoes > h2{
@@ -498,3 +498,22 @@ textarea {
     text-align: center;
     margin: 40px 0;
 }
+
+/* pag nossa historia */
+ .history{
+    width: 100%;
+    margin: 5% 0 0 0;
+ }
+
+.history > h1{
+    text-align: center;
+    margin: 0 0 5% 0;
+}
+
+.history > p{
+    margin: 0 20% 2% 20%;
+    text-align: justify;
+    border-left: 2px #000 ridge;
+    padding: 0 0 0 1%;
+}
+
