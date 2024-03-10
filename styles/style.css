@@ -337,14 +337,19 @@ body {
 
 .lanche-img{
     width: 170px;
+    height: 150px ;
     border-radius: 10px 10px 0 0;
     margin: 0 0 15px 35px;
 }
 
 .product > h4{
-    border-bottom: 2px ridge #000;
-    margin: 0 30% 3% 30%;
     font-size: 18px;
+}
+
+.product > p {
+    font-size: 14px;
+    text-align: left;
+    padding: 5px;
 }
 
     /*cardapio porções*/
@@ -352,6 +357,13 @@ body {
 .porcoes > h2{
     text-align: center;
     margin: 0 0 2% 0;
+}
+
+.porcao-img{
+    width: 170px;
+    height: 120px;
+    border-radius: 10px 10px 0 0;
+    margin: 0 0 15px 35px;
 }
 
     /* cardapio bebidas */
