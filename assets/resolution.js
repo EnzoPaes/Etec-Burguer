@@ -70,8 +70,6 @@ function updateCategoryButtons() {
     });
 }
 
-// 
-
 stars.forEach(star => {
     star.addEventListener('click', () => {
         userRating = parseInt(star.getAttribute('data-value'));
