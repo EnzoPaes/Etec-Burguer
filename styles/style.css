@@ -492,7 +492,7 @@ textarea {
     padding: 25px 0;
 }
 
-    /* cardapio bebidas */
+/* cardapio bebidas */
 
 .bebidas > h2{
     text-align: center;
@@ -500,18 +500,20 @@ textarea {
 }
 
 /* pag nossa historia */
+
  .history{
     width: 100%;
-    margin: 5% 0 0 0;
+    margin: 60px 0 80px 0;
  }
 
 .history > h1{
+    font-size: 50px;
     text-align: center;
-    margin: 0 0 5% 0;
+    margin: 60px 0;
 }
 
 .history > p{
-    margin: 0 20% 2% 20%;
+    margin: 0 10% 2% 10%;
     text-align: justify;
     border-left: 2px #000 ridge;
     padding: 0 0 0 1%;
