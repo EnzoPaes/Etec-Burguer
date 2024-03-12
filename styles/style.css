@@ -436,7 +436,7 @@ textarea {
 
 .lanches > .products {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     gap: 24px;
 }
 
@@ -451,8 +451,8 @@ textarea {
 }
 
 .lanche-img{
-    width: 320px;
-    height: 320px;
+    width: 90%;
+    height: auto;
     padding: 25px 0;
 }
 
@@ -477,7 +477,7 @@ textarea {
 
 .porcoes > .products {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     gap: 24px;
 }
 
@@ -487,8 +487,8 @@ textarea {
 }
 
 .porcao-img{
-    width: 320px;
-    height: 320px;
+    width: 90%;
+    height: auto;
     padding: 25px 0;
 }
 
