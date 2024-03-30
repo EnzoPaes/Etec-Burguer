@@ -436,7 +436,7 @@ textarea {
 
 .lanches > .products {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     gap: 24px;
 }
 
@@ -451,8 +451,8 @@ textarea {
 }
 
 .lanche-img{
-    width: 320px;
-    height: 320px;
+    width: 90%;
+    height: auto;
     padding: 25px 0;
 }
 
@@ -477,7 +477,7 @@ textarea {
 
 .porcoes > .products {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     gap: 24px;
 }
 
@@ -487,12 +487,12 @@ textarea {
 }
 
 .porcao-img{
-    width: 320px;
-    height: 320px;
+    width: 90%;
+    height: auto;
     padding: 25px 0;
 }
 
-    /* cardapio bebidas */
+/* cardapio bebidas */
 
     .bebidas {
         width: 100%;
@@ -518,18 +518,20 @@ textarea {
     }
 
 /* pag nossa historia */
+
  .history{
     width: 100%;
-    margin: 5% 0 0 0;
+    margin: 60px 0 80px 0;
  }
 
 .history > h1{
+    font-size: 50px;
     text-align: center;
-    margin: 0 0 5% 0;
+    margin: 60px 0;
 }
 
 .history > p{
-    margin: 0 20% 2% 20%;
+    margin: 0 10% 2% 10%;
     text-align: justify;
     border-left: 2px #000 ridge;
     padding: 0 0 0 1%;
