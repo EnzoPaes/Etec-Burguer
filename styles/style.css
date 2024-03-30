@@ -494,10 +494,28 @@ textarea {
 
     /* cardapio bebidas */
 
-.bebidas > h2{
-    text-align: center;
-    margin: 40px 0;
-}
+    .bebidas {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bebidas > .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(376px, 1fr));
+        gap: 24px;
+    }
+    
+    .bebidas > h2{
+        text-align: center;
+        margin: 40px 0;
+    }
+    
+    .bebida-img{
+        width: 320px;
+        height: 320px;
+        padding: 25px 0;
+    }
 
 /* pag nossa historia */
  .history{
