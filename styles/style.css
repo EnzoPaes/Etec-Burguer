@@ -512,8 +512,8 @@ textarea {
     }
     
     .bebidas-img{
-        width: 320px;
-        height: 320px;
+        width: 90%;
+        height: auto;
         padding: 25px 0;
     }
 
