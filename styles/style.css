@@ -106,6 +106,7 @@ body {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-delivery:hover {
