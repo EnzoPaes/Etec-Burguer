@@ -602,3 +602,10 @@ textarea {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 540px) {
+    .menu-item > figure {
+        grid-template-columns: repeat(auto-fill, minmax(90%, 1fr));
+        gap: 0;
+    }
+}
